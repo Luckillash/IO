@@ -274,7 +274,7 @@ a {
     display: none;
     
   }
-  
+
 }
 
 
@@ -316,7 +316,7 @@ a {
 
   .grid {
     grid-template-columns: 1fr;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
     max-width: 320px;
     text-align: center;
   }
