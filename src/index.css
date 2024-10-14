@@ -254,6 +254,30 @@ a {
   }
 }
 
+@media (max-width: 1400px) {
+
+
+  .noise {
+
+    display: none;
+
+  }
+
+  .noiseBorder1 {
+
+    display: none;
+    
+  }
+
+  .noiseBorder2 {
+
+    display: none;
+    
+  }
+  
+}
+
+
 /* Mobile */
 @media (max-width: 700px) {
 
