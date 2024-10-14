@@ -381,6 +381,37 @@ a {
   }
 }
 
+@keyframes slideInFromRight {
+
+  0% {
+
+    transform: translateX(100%);
+
+  }
+
+  100% {
+
+    transform: translateX(0);
+
+  }
+
+}
+
+@keyframes slideInFromLeft {
+
+  0% {
+
+    transform: translateX(-100%) scaleX(-1);
+
+  }
+
+  100% {
+
+    transform: translateX(0) scaleX(-1);
+
+  }
+
+}
 
 .noise {
 
@@ -404,9 +435,11 @@ a {
 
   mask-position: center;
 
+  /* Añadir la animación */
+
 }
 
-.noiseBorder {
+.noiseBorder1 {
 
   background-color: rgb(0, 0, 0);
 
@@ -427,10 +460,37 @@ a {
   mask-repeat: no-repeat;
 
   mask-position: center;
+
+  animation: slideInFromRight 2s ease-out forwards;
+  
+} 
+
+.noiseBorder2 {
+
+  background-color: rgb(0, 0, 0);
+
+  position: absolute;
+
+  width: 60%;
+
+  height: 60%;
+
+  background-image: url('noiseTexture.png');
+
+  mask-image: url('camera.png');
+
+  mask-size: contain;
+
+  mask-repeat: no-repeat;
+
+  mask-position: center;
+
+  animation: slideInFromLeft 2s ease-out forwards;
   
 } 
 
 .inverted {
+
   left: -22.5%;
 
   bottom: 0%;
@@ -438,6 +498,3 @@ a {
   transform: scaleX(-1);
 
 }
-
-
-

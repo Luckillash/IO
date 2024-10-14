@@ -217,13 +217,13 @@ function App() {
           </a>
         </div>
 
-        <div style={{pointerEvents: 'none'}} className="noiseBorder">
+        <div style={{pointerEvents: 'none'}} className="noiseBorder1">
 
             <div className="noise"></div>
           
         </div>
 
-        <div style={{pointerEvents: 'none'}} className="noiseBorder inverted">
+        <div style={{pointerEvents: 'none'}} className="noiseBorder2 inverted">
 
           <div className="noise"></div>
 
