@@ -274,7 +274,13 @@ a {
 
   }
 
-  .noiseBorder {
+  .noiseBorder1 {
+
+    display: none;
+    
+  }
+
+  .noiseBorder2 {
 
     display: none;
     
