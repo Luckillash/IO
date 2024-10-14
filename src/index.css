@@ -48,8 +48,11 @@
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-    
-  --foreground-rgb: 255, 255, 255;
+
+  /* --foreground-rgb: 255, 255, 255; */
+
+  /* --foreground-rgb: 18, 18, 18; */
+
   --background-start-rgb: 0, 0, 0;
   --background-end-rgb: 0, 0, 0;
 
@@ -137,6 +140,8 @@
 
 html,
 body {
+
+  background-color: #121212;
   max-width: 100vw;
   overflow-x: hidden;
 }
