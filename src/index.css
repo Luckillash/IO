@@ -151,6 +151,7 @@ body {
 
   background: #121212;
 
+  overscroll-behavior-y: contain;
 
 }
 
