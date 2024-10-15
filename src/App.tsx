@@ -5,6 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { PiSecurityCameraBold } from "react-icons/pi";
+import logo from "./2.svg"
 function App() {
 
   const words = [
@@ -80,7 +81,7 @@ function App() {
         </motion.p>
       </AnimatePresence>
 
-          {/* <div>
+         <div>
 
             <a
 
@@ -96,14 +97,14 @@ function App() {
 
               By
               <img
-                src="/vercel.svg"
+                src={logo}
                 alt="Vercel Logo"
                 className="vercelLogo"
-                width={100}
-                height={24}
+                width={50}
+                height={74}
               />
             </a>
-          </div> */}
+          </div> 
         </div>
   
         <div className="center">
