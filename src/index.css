@@ -325,7 +325,8 @@ a {
 
   html {
 
-    margin-bottom: 160px;
+    margin-bottom: 60px;
+
   }
 
   .title {
@@ -430,6 +431,17 @@ a {
     );
     z-index: 1;
   }
+}
+
+/* IOS */
+@media (max-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  html {
+
+    margin-bottom: 260px;
+
+  }
+
 }
 
 /* Tablet and Smaller Desktop */
