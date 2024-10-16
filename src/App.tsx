@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { PiSecurityCameraBold } from "react-icons/pi";
-import logo from "./2.svg"
+import logo from "./6.svg"
 function App() {
 
   const words = [
